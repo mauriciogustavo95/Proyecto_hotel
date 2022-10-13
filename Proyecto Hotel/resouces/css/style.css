@@ -197,7 +197,7 @@ header{
 ----------------------------------*/
 
 .agenda {
-    background: linear-gradient(#0e0e0ed9, #121212d9), url("image/reserva.jpg") center/cover no-repeat;
+    background: linear-gradient(#973434d9, #000000d9), url("image/reserva.jpg") center/cover no-repeat;
     color: #fff;
     padding: 40px 60px;
 }
@@ -327,37 +327,6 @@ header{
     opacity: 1;
 }
 
-/*----------------------------------
-                Registra
-----------------------------------*/
-
-.registra{
-    overflow: hidden;
-}
-
-.registra img{
-    display: block;
-    float: right;
-    width: 22%;
-    margin-right: 30px;
-}
-
-.registra-contenedor p{
-    padding: 10px 0px;
-}
-
-.registra-contenedor i{
-    color: var(--brand-color);
-    width: 50px;
-    font-size: 1.2rem;
-    text-align: center
-}
-
-.registra-contenedor a{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
 
 /*----------------------------------
               Clientes
@@ -413,9 +382,10 @@ header{
 
 .modulo-habitacion{
     width: 25%;
-    background-color: #f8efe1;
+    background-color: #fff;
     border: 1px solid #f8efe1;
     display: inline-block;
+    border-radius: 1rem;
     margin-left: 6.25%;
     box-shadow: 2px 5px 10px var(--brand-color);
 }
@@ -425,6 +395,7 @@ header{
     height: 100px;
     background-color: var(--brand-color);
     color: #ffffff;
+    border-radius: 1rem;
     margin-bottom: 20px;
 }
 
@@ -460,7 +431,7 @@ footer{
     background-color: #323232;
     color: #ffffff;
     position: relative;
-    height: 200px;
+    height: 150px;
     font-size: 0.7rem;
 }
 
@@ -490,15 +461,21 @@ footer{
     transition: color 1s;
 }
 
+.politicas a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+
 .politicas li:hover{
     color: var(--brand-color);
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 
 footer .logo{
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 20%;
     width: 60%;
 }
